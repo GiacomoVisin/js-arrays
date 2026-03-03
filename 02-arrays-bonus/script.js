@@ -14,10 +14,15 @@ const reversedTeachers = teachers.toReversed();
 console.log(reversedTeachers);
 
 
+for (let i = teachers.length - 1 ; i >= 0  ; i--   ){
+  console.log(teachers[i]);
+}
+
+
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
-const longNames = null;
+const longNames = teachers;
 
 // 3. Rimuovi 'Ed' dall'array teachers
 
